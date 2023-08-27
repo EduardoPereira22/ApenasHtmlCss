@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Lilita+One&family=Merriweather:ital,wght@0,300;1,300&family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather:ital,wght@0,300;1,300&family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+:root{
+    --cor-botao-bg: #363130;
+}
+
+*{box-sizing: border-box; }
+
+
+
+.container{display: grid;
+  
+}
+.Header{
+    position: relative;
+    
+  width: 100%;
+   
+    background-color: black;
+    height: 100px;
+
+
+}
+
+
+
+.btn1{  
+    color: white;
+    
+    position: absolute;
+    left: 60%;
+    width: 20%;
+   
+    padding: 10px;
+    height: 100px;
+    border-radius: 5px;
+
+  background-color: var(--cor-botao-bg);
+
+ 
+/*tentei usar display grind que eu nao sei muito e deixei para tirar duvidas*/
+}
+.btn2{  
+    color: white;
+    position: absolute;
+    left: 40%;
+    padding: 10px;
+    width: 20%;
+    height: 100px;
+    border-radius: 5px;
+
+  background-color: var(--cor-botao-bg);
+}
+
+.btn3{  
+  color: white;
+  position: absolute;
+  left: 20%;
+  padding: 10px;
+  width: 20%;
+  height: 100px;
+  border-radius: 5px;
+
+background-color: var(--cor-botao-bg);
+}
+
+.asideFoto{
+    /*font-family: 'Lilita One', cursive;
+    font-family: 'Raleway', sans-serif;*/
+    font-weight: bold;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   
+   
+
+}
+
+.img1{
+    border-radius: 50%;
+    max: width 36px;
+    max-height: 360px;
+    width: auto;
+    height: auto;
+}
+.MeioMain{
+  font-size: 20px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+    position: relative;
+    grid-column-start: 3;
+grid-column-end: 12;}
+
+
+.footer{ 
+    font-family: 'Lilita One', cursive;
+    color:gray;
+
+    position: absolute;
+bottom: 0;    
+width: 100%;
+height: auto;
+background-color: #363130;
+
+}
+
+
+.Header2{  position: relative;
+    
+    width: 100%;
+     
+      background-color: black;
+      height: 100px;
+  
+  
+
+}
+
+.Header3{
+    position: relative;
+    
+    width: 100%;
+     
+      background-color: black;
+      height: 100px;
+  
+  
+}
+
+/*.btnForSo{
+    color: white;
+    
+    position: absolute;
+    left: 50%;
+    width: 20%;
+   
+    padding: 10px;
+    height: 100px;
+    border-radius: 5px;
+
+  background-color: var(--cor-botao-bg);
+
+}*/
+
+.btnPrin{color: white;
+    position: absolute;
+    right: 45%;
+    padding: 10px;
+    width: 22%;
+    height: 100px;
+    border-radius: 5px;
+
+  background-color: var(--cor-botao-bg);
+
+}
+
+/*.BtnInPr{
+    Color: white;
+    position: absolute;
+    right: 50%;
+    padding: 10px;
+    width: 20%;
+    height: 100px;
+    border-radius: 5px;
+
+  background-color: var(--cor-botao-bg);
+
+    
+}*/
+
+/*.BtnInFor{
+    color: white;
+    
+    position: absolute;
+    left: 50%;
+    width: 20%;
+   
+    padding: 10px;
+    height: 100px;
+    border-radius: 5px;
+
+  background-color: var(--cor-botao-bg);
+
+}*/
+
+.h1sobre{text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Lilita One', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', sans-serif;}
+
+.btngit{
+    width: 150px;
+    color: white;
+
+    background-color:#363130;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.btnlinke{
+    width: 150px;
+    color: white;
+
+    background-color:#363130;
+    border-radius: 50%;
+    height: 150px;
+
+}
+
+.pPort{font-size: 20px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;}
+
+
+.btnEnviar{
+  background-color: #292411;
+  color: white;
+}
+
+.tb1{
+  position: absolute;
+  padding-left: 350px;
+
+  
+}
