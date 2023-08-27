@@ -24,7 +24,7 @@
 }
 
 
-
+/* na pagina principal/contato (index) bt1, bt2 e bt3 são os botões para o link das outras paginas      */
 .btn1{  
     color: white;
     
@@ -39,7 +39,7 @@
   background-color: var(--cor-botao-bg);
 
  
-/*tentei usar display grind que eu nao sei muito e deixei para tirar duvidas*/
+
 }
 .btn2{  
     color: white;
@@ -64,7 +64,7 @@
 
 background-color: var(--cor-botao-bg);
 }
-
+/* asidefoto fica as fotos e os textos a esquerda da pagina    e img1 é a imagem do aside        */
 .asideFoto{
     /*font-family: 'Lilita One', cursive;
     font-family: 'Raleway', sans-serif;*/
@@ -87,6 +87,8 @@ background-color: var(--cor-botao-bg);
     width: auto;
     height: auto;
 }
+
+/*parte do meio da pagina         */
 .MeioMain{
   font-size: 20px;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -97,7 +99,7 @@ font-family: 'Raleway', sans-serif;
     grid-column-start: 3;
 grid-column-end: 12;}
 
-
+/*  Auto-explicativo                                                  */
 .footer{ 
     font-family: 'Lilita One', cursive;
     color:gray;
@@ -110,7 +112,7 @@ background-color: #363130;
 
 }
 
-
+/* headers das paginas secundarias                                                 */
 .Header2{  position: relative;
     
     width: 100%;
@@ -148,6 +150,7 @@ background-color: #363130;
 
 }*/
 
+/*Botão com o link da pagina Contato/Principal (index)                                      */
 .btnPrin{color: white;
     position: absolute;
     right: 45%;
@@ -188,13 +191,13 @@ background-color: #363130;
   background-color: var(--cor-botao-bg);
 
 }*/
-
+/*   texto sobre min                                         */
 .h1sobre{text-align: center;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-family: 'Lilita One', cursive;
   font-family: 'Merriweather', serif;
   font-family: 'Raleway', sans-serif;}
-
+/*  botão github                                      */
 .btngit{
     width: 150px;
     color: white;
@@ -203,7 +206,7 @@ background-color: #363130;
     border-radius: 50%;
     height: 150px;
 }
-
+/* botão linkedin */
 .btnlinke{
     width: 150px;
     color: white;
@@ -213,19 +216,19 @@ background-color: #363130;
     height: 150px;
 
 }
-
+/* texto Pagina Portfolio                                      */
 .pPort{font-size: 20px;
   font-family: 'Fira Sans Condensed', sans-serif;
 font-family: 'Lilita One', cursive;
 font-family: 'Merriweather', serif;
 font-family: 'Raleway', sans-serif;}
 
-
+/* botão formulario da pagina principal/contato(index)                                                              */
 .btnEnviar{
   background-color: #292411;
   color: white;
 }
-
+/*  table da pagina principal/contato(index)                                            */
 .tb1{
   position: absolute;
   padding-left: 350px;
